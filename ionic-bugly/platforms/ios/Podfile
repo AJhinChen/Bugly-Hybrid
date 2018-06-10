@@ -1,0 +1,80 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+project 'ionic-bugly.xcodeproj'
+
+def settarget
+platform :ios, '9.0'
+
+#
+#核心框架
+#
+
+#数据库存储
+pod 'FMDB'
+#版本更新
+pod 'Harpy'
+#猿题库数据库存储
+#pod 'AJKeyValueStore'
+#UUID
+pod 'FCUUID'
+#SystemServices
+pod 'SystemServices', '~> 2.0.1'
+#日志      - CocoaLumberjack, 3.3.0
+pod 'CocoaLumberjack'
+#刷新动画      - MJRefresh, 3.1.15.1
+pod 'MJRefresh'
+#图片加载封装      - SDWebImage, 4.2.2
+pod 'SDWebImage', '~> 4.0'
+#Block封装      - BlocksKit, 2.2.5
+pod 'BlocksKit', '2.2.5'
+#响应式编程      - ReactiveCocoa, 2.3.1
+pod 'ReactiveCocoa', '2.3.1'
+#布局      - Masonry, 1.1.0
+pod 'Masonry'
+#网络请求      - AFNetworking, 3.1.0
+pod 'AFNetworking', '~> 3.0'
+#Loading
+pod 'MBProgressHUD+JDragon'
+#数据模型转换      - Mantle, 2.1.0
+pod 'Mantle'
+#动态表单      - XLForm, 4.0.0
+pod 'XLForm'
+#AOP面向切片编程      - Aspects, 1.4.1
+pod 'Aspects'
+#缓存机制      - YYCache, 1.0.4
+pod 'YYCache'
+#字典赋值检查      - NSDictionary-NilSafe, 0.2.0
+pod 'NSDictionary-NilSafe'
+#内存泄露检查工具      - MLeaksFinder, 1.0.0
+pod 'MLeaksFinder'
+#Web浏览器      - AXWebViewController, 0.6.1
+pod 'AXWebViewController', '~> 0.6.0'
+#Cordova插件      - Cordova, 4.4.0
+#pod 'Cordova'
+
+#常用框架
+#正则表达式封装      - RegexKitLite-NoWarning, 1.1.0
+pod 'RegexKitLite-NoWarning', '1.1.0'
+#侧滑菜单      - LGSideMenuController, 2.1.1
+pod 'LGSideMenuController'
+#空TableView占位视图      - CYLTableViewPlaceHolder, 1.0.8
+pod 'CYLTableViewPlaceHolder'
+#侧滑Cell      - SWTableViewCell, 0.3.7
+pod 'SWTableViewCell', '~> 0.3.7'
+#TableViewCell自动优化计算      - UITableView+FDTemplateLayoutCell, 1.6
+pod 'UITableView+FDTemplateLayoutCell'
+#TabBar框架      - CYLTabBarController, 1.14.2
+pod 'CYLTabBarController'
+#浮动输入框
+pod 'JVFloatLabeledTextField'
+#个人页面
+pod 'ARSegmentPager'
+
+
+end
+
+target 'ionic-bugly' do
+settarget
+end
+
+#pod update --verbose --no-repo-update
