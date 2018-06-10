@@ -1,0 +1,202 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ARSegmentPager (1.1.2)
+  - Aspects (1.4.1)
+  - AXIndicatorView (0.1.1)
+  - AXNavigationBackItemInjection (0.0.2)
+  - AXPracticalHUD (1.2.0):
+    - AXIndicatorView
+  - AXWebViewController (0.6.1):
+    - Aspects
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - NJKWebViewProgress
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
+  - Cordova (4.4.0)
+  - CYLTabBarController (1.14.2)
+  - CYLTableViewPlaceHolder (1.0.8)
+  - FBRetainCycleDetector (0.1.4)
+  - FCUUID (1.3.1):
+    - UICKeyChainStore (~> 2.1.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Harpy (4.1.9)
+  - JVFloatLabeledTextField (1.2.1)
+  - LGSideMenuController (2.1.1)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - "MBProgressHUD+JDragon (0.0.3)":
+    - MBProgressHUD (~> 0.9.2)
+  - MJRefresh (3.1.15.1)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - NSDictionary-NilSafe (0.2.0)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI (= 2.3.1)
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - RegexKitLite-NoWarning (1.1.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - SWTableViewCell (0.3.7)
+  - SystemServices (2.0.1)
+  - UICKeyChainStore (2.1.1)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - XLForm (4.0.0)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - ARSegmentPager
+  - Aspects
+  - AXWebViewController (~> 0.6.0)
+  - BlocksKit (= 2.2.5)
+  - CocoaLumberjack
+  - Cordova
+  - CYLTabBarController
+  - CYLTableViewPlaceHolder
+  - FCUUID
+  - FMDB
+  - Harpy
+  - JVFloatLabeledTextField
+  - LGSideMenuController
+  - Mantle
+  - Masonry
+  - "MBProgressHUD+JDragon"
+  - MJRefresh
+  - MLeaksFinder
+  - NSDictionary-NilSafe
+  - ReactiveCocoa (= 2.3.1)
+  - RegexKitLite-NoWarning (= 1.1.0)
+  - SDWebImage (~> 4.0)
+  - SWTableViewCell (~> 0.3.7)
+  - SystemServices (~> 2.0.1)
+  - "UITableView+FDTemplateLayoutCell"
+  - XLForm
+  - YYCache
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - ARSegmentPager
+    - Aspects
+    - AXIndicatorView
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - AXWebViewController
+    - BlocksKit
+    - CocoaLumberjack
+    - Cordova
+    - CYLTabBarController
+    - CYLTableViewPlaceHolder
+    - FBRetainCycleDetector
+    - FCUUID
+    - FMDB
+    - Harpy
+    - JVFloatLabeledTextField
+    - LGSideMenuController
+    - Mantle
+    - Masonry
+    - MBProgressHUD
+    - "MBProgressHUD+JDragon"
+    - MJRefresh
+    - MLeaksFinder
+    - NJKWebViewProgress
+    - NSDictionary-NilSafe
+    - ReactiveCocoa
+    - RegexKitLite-NoWarning
+    - SDWebImage
+    - SWTableViewCell
+    - SystemServices
+    - UICKeyChainStore
+    - "UITableView+FDTemplateLayoutCell"
+    - XLForm
+    - YYCache
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ARSegmentPager: daff3a6a14c71280a7494e404e658df45a38e3ae
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AXIndicatorView: 566b490a2dd9781d4ffbcc9752be9b9cdc6e728e
+  AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
+  AXPracticalHUD: c96a57a65f88711d019709e079dc548b889c066b
+  AXWebViewController: 3a6751e9afdf2ca09663c3db460833f07c524d61
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  Cordova: 561576155c420c54441d99b855de12c6e7b51088
+  CYLTabBarController: 5eac1940e20aa934a609ecec38837da63a41dcfe
+  CYLTableViewPlaceHolder: 44075c119aab78bbc514c75d771d6565e19938e8
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Harpy: bb9880fad3d7902f072bebc1b13cd6988af1f6bb
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  "MBProgressHUD+JDragon": 74b18a89dac13cc921df0e2b0c2945b29b15e7ab
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  NSDictionary-NilSafe: 3df5056bf920974cb9822ed24bfc41af44225201
+  ReactiveCocoa: 3fe9b233ca6db810e86681b5749488564c1179a1
+  RegexKitLite-NoWarning: 365d208f8187997e33d9de8baeddfc00728596d8
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  SystemServices: 7af348493ece8951449b476c41532df72569b181
+  UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  XLForm: 04110197c12187dd28a6c7295d3d8b95f4fdb4de
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 9f54e6fa53dea081c40e5512c2975853f576132c
+
+COCOAPODS: 1.5.0
