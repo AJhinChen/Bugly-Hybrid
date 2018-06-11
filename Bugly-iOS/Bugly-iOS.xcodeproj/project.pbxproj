@@ -253,6 +253,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B77AC44720CE876C00DD788D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		B7C6D19820CAA1D700B74C36 = {
 			isa = PBXGroup;
 			children = (
@@ -473,6 +480,7 @@
 		B7C6D22320CAA65C00B74C36 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B77AC44720CE876C00DD788D /* Search */,
 				B7C6D29D20CCB12C00B74C36 /* Category */,
 				B7C6D25920CAAB4400B74C36 /* Plus */,
 				B7C6D25820CAAB3900B74C36 /* Mine */,
